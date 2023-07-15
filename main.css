@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Luckiest+Guy&family=Poppins:ital,wght@0,300;0,400;0,600;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+}
+
+h1{
+    height: 40px;
+    width: 100%;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);   
+    margin-top: 20px;  
+}
+.container{
+    height: 350px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(22, 1, 1);
+    border-radius: 12px;
+
+}
+#head{
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 200;
+    margin-left: 170px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+textarea{
+    margin-left: 20px;
+    width: 460px;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
+
+}
+button{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan;
+    padding: 9px 18px;
+    background-color: cyan;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 20px;
+    margin-left: 210px;
+    transition: 0.60s ease ;
+     
+}
+button:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
